@@ -15,7 +15,6 @@ public class Q12921 {
 				answer++;
 				continue;
 			}
-			
 			for (int j = 2; j*j <= i; j++) {
 				if (i % j == 0) {
 					isPrime = false;

@@ -22,7 +22,6 @@ public class Kakao_claw_crane_game {
         			basket.add(board[j][i-1]);
         			basketIdx++;
         			board[j][i-1] = 0;
-        			
             		if (basketIdx > 0 && basket.get(basketIdx-1) == basket.get(basketIdx)) {
             			basket.remove(basketIdx);
             			basket.remove(basketIdx-1);

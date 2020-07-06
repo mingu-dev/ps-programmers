@@ -8,10 +8,8 @@ public class Q12903 {
 	
 	public String solution(String s) {
 		String answer = "";
-
 		char[] sCharArr = s.toCharArray(); // 주어진 문자열을 char 배열로 바꾼다.
 		char[] tmp = new char[sCharArr.length];
-		
 		int mid = sCharArr.length % 2;
 		
 		if (mid == 0) { // 문자열의 길이가 짝수일 때
